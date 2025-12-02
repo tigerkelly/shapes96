@@ -19,7 +19,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include "oled96.h"
+#include "shapes96.h"
 
 int main(int argc, char *argv[]) {
 	int i, iChannel;
