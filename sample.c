@@ -19,13 +19,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <signal.h>
+
 #include "shapes96.h"
+
+void handleSig(int sig) {
+	oledShutdown();
+	exit(0);
+}
 
 int main(int argc, char *argv[]) {
 	int i, iChannel;
 	int iOLEDAddr = 0x3c; // typical address; it can also be 0x3d
 	int iOLEDType = OLED_128x64; // Change this for your specific display
 	int bFlip = 0, bInvert = 0;
+
+	signal(SIGINT, handleSig);
 
 	i = -1;
 	iChannel = -1;
