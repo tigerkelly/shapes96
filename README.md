@@ -31,7 +31,7 @@ Some of the shapes are:<br>
     * Ellipse<br>
     * Ploygon
 
-I changed all of the funciton calls to reflex my sytle of coding.
+I changed all of the function calls to reflex my sytle of coding.
 I also enhanced the sample.c program to show the shapes.
 I also combined the makefile and make_sample together.
 
