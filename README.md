@@ -31,9 +31,12 @@ Some of the shapes are:<br>
     * Ellipse<br>
     * Ploygon
 
-I changed all of the function calls to reflex my sytle of coding.
-I also enhanced the sample.c program to show the shapes.
-I also combined the makefile and make_sample together.
+I changed all of the function calls to reflex my sytle of coding.<br>
+I also enhanced the sample.c program to show the shapes.<br>
+I also combined the makefile and make_sample together.<br>
+
+To speed up I2C bus edit config.txt and add the follwoing line.
+dtparam=i2c_arm_baudrate=400000
 
 To build:<br>
     cd shapes96<br>
