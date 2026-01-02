@@ -35,7 +35,7 @@ I changed all of the function calls to reflex my sytle of coding.<br>
 I also enhanced the sample.c program to show the shapes.<br>
 I also combined the makefile and make_sample together.<br>
 
-To speed up I2C bus edit config.txt and add the follwoing line.
+To speed up I2C bus edit config.txt and add the follwoing line.<br>
 dtparam=i2c_arm_baudrate=400000
 
 To build:<br>
