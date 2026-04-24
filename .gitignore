@@ -53,3 +53,6 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Backups
+*.[1-9]
